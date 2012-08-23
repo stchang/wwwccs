@@ -1,0 +1,64 @@
+<title> Stephen Chang: Thesis Proposal </title>
+<link type="text/css" rel="stylesheet" href="http://www.ccs.neu.edu/home/chrdimo/homepage.css">
+
+<!--  ask google not to index or follow the links in this page -->
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW"> 
+
+
+
+<h1>Thesis Proposal for Stephen Chang</h1>
+
+<ol>
+
+<p><li> <strong>Title:</strong>
+Laziness By Need.
+
+
+
+<p><li> <strong>Abstract:</strong> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Lazy functional programming comes with many benefits that strict
+functional languages can simulate via lazy data constructors. For 
+example, the use of lazy data structures can simplify the composition of
+components and improve the performance of a program. In recognition, 
+ML and Scheme have supported lazy stream programming with
+delay and force for several decades. Unfortunately, the manual insertion 
+of delay and force is tedious for the most part, challenging in
+a few instances, and hence truly error-prone.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;In this proposal, we present a semantics-based refactoring that
+helps strict programmers manage manual lazy programming.
+The refactoring uses a static analysis to identify the points where forces
+and additional delays are needed to achieve the desired simplification
+and performance benefits, once the programmer has added the initial
+lazy data constructors. The proposal presents a correctness argument
+for the underlying transformations and some preliminary experiences
+with a prototype tool implementation.
+
+
+<p><li> <strong>URL for Proposal:</strong> 
+<a href= "pubs/thesis-proposal.pdf">
+    Laziness By Need </a> 
+                                                          
+
+  <p><li> <strong>Thesis Committee:</strong> </br> </br>
+<ul>
+  <li> <a href="http://www.ccs.neu.edu/home/matthias">
+    Matthias Felleisen - advisor</a> </li>
+  <li> <a href="http://www.ccs.neu.edu/home/dvanhorn">
+    David Van Horn</a> </li>
+  <li> <a href="http://www.ccs.neu.edu/home/amal">
+    Amal Ahmed</a> </li>
+  <li> <a href="http://barzilay.org/">
+      Eli Barzilay</a></li>
+  <li> <a href="http://www.eecs.harvard.edu/~greg/">
+      Greg Morrisett -- external member (Harvard)</a></li>
+</ul>
+<br/>
+<!--
+Prof. Ahmed's and Prof. Wand's contributions to proof techniques for
+program properties and observational equivalences has influenced my research.
+Prof. Flanagan has worked on static
+debugging, type system design, and behavioral/temporal contracts, which is
+closely related to my work.
+-->
+
