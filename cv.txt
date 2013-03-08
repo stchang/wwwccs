@@ -38,8 +38,7 @@ Publications and Talks
 2011, From Stack Traces to Lazy Rewriting Sequences,
       with Eli Barzilay, John Clements, and Matthias Felleisen.
       In Revised Selected Papers of the 
-      23rd International Symposium on Implementation and Application of 
-                                      Functional Languages (IFL).
+      23rd International Symposium on Implementation and Application of Functional Languages (IFL).
 2010, Evaluating Call By Need on the Control Stack,
       with David Van Horn and Matthias Felleisen.
       In Revised Selected Papers of the 
@@ -50,9 +49,9 @@ Awards
 
 2010, Teaching Award, CCIS, Northeastern University.
 2010, Best Student Paper,
-     11th International Symposium on Trends in Functional Programming (TFP).
+      11th International Symposium on Trends in Functional Programming (TFP).
 2009, Upsilon Pi Epsilon,
-     International Honor Society for the Computing and information Disciplines.
+      International Honor Society for the Computing and information Disciplines.
 
 
 Professional Activities
