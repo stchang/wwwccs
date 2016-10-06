@@ -55,12 +55,42 @@ Turnstile produces performant typed languages with little effort.
     </ul>
 
 </div>
-    <h3>Artifact Instructions</h3>
+  <h3>Artifact Instructions</h3>
+  <h4>VM Image (recommended)</h4>
     <ul>
       <li>Download <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
       <li>Download the <a href="http://www.ccs.neu.edu/home/stchang/popl2017/type-systems-as-macros.ova">artifact image</a> (2.1GB)
-      <li> Open the VirtualBox viewer, choose <tt>File->Import Appliance</tt>, select the downloaded <tt>.ova</tt> file, and start the VM.
-      <li> Open the <tt>README.html</tt> on the Desktop and follow the contained instructions.
+      <li> Open the VirtualBox viewer, choose <tt>File->Import Appliance</tt>, and select the downloaded <tt>.ova</tt> file.
+      <li> Open <tt>README.html</tt> on the Desktop and follow its instructions.
+    </ul>
+  <h4>Manual Installation (only in VM is malfunctioning)</h4>
+    <ul>
+      <li>Download and install <a href="http://download.racket-lang.org">Racket 6.6.</a></li>
+      <li>Clone the repository into the directory <tt>popl2017</tt> (or any directory):
+        <br><br>
+            <tt>git clone https://bitbucket.org/stchang/macrotypes popl2017</tt>
+            <br><br></li>
+      <li>Change directory to the repository root:
+        <br><br>
+            <tt> cd popl2017</tt>
+            <br><br></li>
+      <li>From the repository root, install Turnstile:
+        <br><br>
+            <tt>raco pkg install --auto</tt>
+            <br><br></li>
+      <li>Register the documentation:
+        <br><br>
+            <tt>raco setup --doc-index</tt>
+            <br><br></li>
+      <li>From the repository root, change to the <tt>artifact</tt> directory:
+        <br><br>
+            <tt>cd artifact</tt>
+            <br><br></li>
+      <li>Build the README file:
+        <br><br>
+            <tt>make readme</tt>
+            <br><br></li>
+      <li>Open the produced <tt>README.html</tt> file and follow the contained instructions.</li>
     </ul>
     <br>
       <a href="/home/stchang">Home</a>
