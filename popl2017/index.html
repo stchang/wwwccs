@@ -22,7 +22,7 @@
 <p>
   [&nbsp;<a href="http://www.ccs.neu.edu/home/stchang/pubs/ckg-popl2017.pdf">pdf</a>&nbsp;
   |&nbsp;<a href="https://bitbucket.org/stchang/macrotypes">code repo</a>&nbsp;
-  |&nbsp;<a href="http://www.ccs.neu.edu/home/stchang/popl2017/type-systems-as-macros.ova">artifact</a> (VirtualBox image, 2.1GB)&nbsp;]
+  |&nbsp;<a href="#artifact">artifact instructions</a>, <a href="http://www.ccs.neu.edu/home/stchang/popl2017/type-systems-as-macros.ova">VirtualBox image</a> (2.1GB)&nbsp;]
 </p>
 
 <blockquote>
@@ -54,13 +54,30 @@ Turnstile produces performant typed languages with little effort.
     </ul>
     </ul>
 
-</div>
-  <h3>Artifact Instructions</h3>
+  </div>
+  <div>
+  <h3>Installing Turnstile</h3>
+  You must have <a href="http://racket-lang.org">Racket</a> installed to use Turnstile.
+  <ul>
+    <li>To install Turnstile, from the racket <tt>bin</tt> directory, run:
+  <br><br>
+      <tt>raco pkg install turnstile --auto</tt>
+      <br><br></li>
+        <li>Or from DrRacket, choose <tt>File->Install Package</tt> and enter "turnstile"</li></ul>
+      <a href="http://docs.racket-lang.org/turnstile@turnstile/index.html">Turnstile documentation</a>
+      <ul>
+        <li><a href="http://docs.racket-lang.org/turnstile@turnstile/The_Turnstile_Guide.html">The Turnstile Guide</a></li>
+        <li><a href="http://docs.racket-lang.org/turnstile@turnstile/The_Turnstile_Reference.html">The Turnstile Reference</a></li>
+      </ul>
+    </div>
+    <div>
+      <a name="artifact"></a>
+  <h2>Artifact Instructions</h2>
   <h4>VM Image (recommended)</h4>
     <ul>
       <li>Download <a href="https://www.virtualbox.org/wiki/Downloads">VirtualBox</a></li>
       <li>Download the <a href="http://www.ccs.neu.edu/home/stchang/popl2017/type-systems-as-macros.ova">artifact image</a> (2.1GB)
-      <li> Open the VirtualBox viewer, choose <tt>File->Import Appliance</tt>, and select the downloaded <tt>.ova</tt> file.
+      <li> Open the VirtualBox viewer, choose <tt>File->Import Appliance</tt>, select the downloaded <tt>.ova</tt> file, and start the VM.
       <li> Open <tt>README.html</tt> on the Desktop and follow its instructions.
     </ul>
   <h4>Manual Installation (only if VM is malfunctioning)</h4>
@@ -91,7 +108,8 @@ Turnstile produces performant typed languages with little effort.
             <tt>make readme</tt>
             <br><br></li>
       <li>Open the produced <tt>README.html</tt> file and follow the contained instructions.</li>
-    </ul>
+            </ul>
+          </div>
     <br>
       <a href="/home/stchang">Home</a>
 </div>
