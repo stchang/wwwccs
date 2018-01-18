@@ -1,3 +1,8 @@
+@font-face {
+font-family: FiraSans;
+src: url(/FiraSans-Regular.otf);
+}
+
 html { 
   color: black; 
   text-align: left;
@@ -24,8 +29,9 @@ dl,dt,ul {
 P {
   text-align: justify;
 /*  color: black; */
-  font-size: large; 
+/*  font-size: large; */
 /*  font-family: Arial, Helvetica, sans-serif;   */
+  font-family: FiraSans, Arial, Helvetica, sans-serif;
 }
 
 a {
